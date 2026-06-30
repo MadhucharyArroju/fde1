@@ -1,0 +1,53 @@
+Request payload
+{
+"portfolioid":"PF-1001",
+"valuationDate":"2026-06-14",
+beginMarketValues":1000000,
+"endMarketValues":1035000
+"netCashFlow":10000,
+beginmarkReturnPct":1.8,
+currency":"USD",
+"requestBy":"advisor01"
+}
+
+Response
+
+{
+"portfolioid":"PF-1001",
+"valuationDate":"2026-06-14",
+"portfolioRetuenPct":2.5,
+"beginMarketReturn":1.8,
+"excessReturnPct":0.7,
+"status":"VALID"
+"reasons":[],
+"processedAt":"2026-06-14T10:30:00Z"
+}
+
+Identity Context :Act as java 10 plus years of experiecne in java,springboot and restful with microservice
+world context :build a microservice project with restful , springboot  and java 17 version meet the condition of above images
+Task context:build a microservice project as per requirements
+Examples context: write postmapping api for below  Request payload
+{
+"portfolioid":"PF-1001",
+"valuationDate":"2026-06-14",
+beginMarketValues":1000000,
+"endMarketValues":1035000
+"netCashFlow":10000,
+beginmarkReturnPct":1.8,
+currency":"USD",
+"requestBy":"advisor01"
+}
+
+Response
+
+{
+"portfolioid":"PF-1001",
+"valuationDate":"2026-06-14",
+"portfolioRetuenPct":2.5,
+"beginMarketReturn":1.8,
+"excessReturnPct":0.7,
+"status":"VALID"
+"reasons":[],
+"processedAt":"2026-06-14T10:30:00Z"
+}
+constraint context: keet it simple what a images requirements
